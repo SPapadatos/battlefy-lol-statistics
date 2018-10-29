@@ -1,0 +1,51 @@
+.Match-record {
+  margin: 1px;
+  max-width: 225px;
+}
+.Match-descriptor {
+  font-size: 8px;
+  font-style: italic;
+}
+
+.Match-champion {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Match-search {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.Match-input {
+  font-weight: bold;
+  max-width: 250px;
+  text-transform: uppercase;
+}
+
+.Match-result {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.Match-item {
+  height:30px;
+  margin-bottom: 20px;
+  width:30px;
+}
+
+.Match-duration {
+  font-size: 10px;
+}
+
+input {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid black;
+  outline: 0;
+}
+
+::-webkit-scrollbar {
+  background: transparent;  /* optional: just make scrollbar invisible */
+  width: 0;  /* remove scrollbar space */
+}
